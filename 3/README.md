@@ -27,7 +27,7 @@ Method giúp gắn hành vi với đối tượng:
 ```go
 
 func (p Person) Greet() {
-fmt.Printf("Xin chào, tôi là %s, %d tuổi.\n", p.name, p.age)
+  fmt.Printf("Xin chào, tôi là %s, %d tuổi.\n", p.name, p.age)
 }
 
 ```
@@ -41,7 +41,7 @@ Nếu bạn muốn method thay đổi dữ liệu bên trong struct, bạn cần
 ```go
 
 func (p *Person) HaveBirthday() {
-p.age++
+  p.age++
 }
 
 ```
@@ -55,15 +55,15 @@ Lưu ý:
 ```go
 
 type Rectangle struct {
-width, height float64
+  width, height float64
 }
 
 func (r Rectangle) Area() float64 {
-return r.width * r.height
+  return r.width * r.height
 }
 
 func (r *Rectangle) Resize(newWidth float64) {
-r.width = newWidth
+  r.width = newWidth
 }
 
 ```
@@ -81,4 +81,3 @@ r.width = newWidth
 | Value receiver | Chỉ đọc, không ảnh hưởng tới dữ liệu gốc |
 
 🧠 Ghi nhớ: Nếu bạn muốn method thay đổi dữ liệu gốc, hãy dùng *StructName làm receiver.
-
