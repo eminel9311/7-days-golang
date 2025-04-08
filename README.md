@@ -57,14 +57,3 @@ Giúp bạn nắm vững kiến thức cơ bản về ngôn ngữ lập trình G
 - Cài đặt môi trường Go: https://go.dev/doc/install
 
 ---
-
-## 📦 Gợi ý cấu trúc project
-my-project/
-├── main.go
-├── controller/
-│   └── post.go
-├── model/
-│   └── post.go
-├── utils/
-│   └── helper.go
-└── go.mod

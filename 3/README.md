@@ -79,3 +79,6 @@ r.width = newWidth
 | Method | Hàm gắn với struct |
 | Pointer receiver | Thay đổi dữ liệu thật |
 | Value receiver | Chỉ đọc, không ảnh hưởng tới dữ liệu gốc |
+
+🧠 Ghi nhớ: Nếu bạn muốn method thay đổi dữ liệu gốc, hãy dùng *StructName làm receiver.
+
