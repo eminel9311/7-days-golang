@@ -58,4 +58,10 @@ func main() {
 
 	s = r
 	fmt.Printf("Diện tích hình chữ nhật: %.2f\n", s.Area())
+
+	fmt.Println("\n=== TESTTT ===")
+	val, ok := scores["Charlie"]
+	fmt.Println("hehe:", val)
+	fmt.Println("ok:", ok)
+
 }
