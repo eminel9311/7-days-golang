@@ -35,7 +35,7 @@ func (r *Rectangle) Resize(newWidth float64) {
 	r.width = newWidth
 }
 
-func main() {
+func main1() {
 	fmt.Println("=== Ngày 3: Struct, Method, Pointer ===")
 
 	// Khai báo và khởi tạo struct

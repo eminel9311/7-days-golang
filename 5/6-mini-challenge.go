@@ -16,7 +16,7 @@ func patialSum(nums []int, ch chan int) {
 }
 
 // Tính tổng các số trong slice bằng nhiều goroutine
-func main() {
+func main6() {
 	numbers := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12} // Slice chứa các số từ 1 đến 10
 
 	// chia slice thành 4 phần
